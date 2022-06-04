@@ -56,7 +56,7 @@ function loopChecking(){
     }
     else{
       setTimeout(animeRemover, 1000)
-      setTimeout(compare, 1000 + (window.e + 1)*1000) 
+      setTimeout(compare, 1000 + (window.e + 1)*750) 
     }
    
 }
