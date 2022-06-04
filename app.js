@@ -84,7 +84,6 @@ function animeRemover(){
 var score;
 function compare(){
   score = (window.equaler.length) -1 ;
-  console.log(score)
   if(areEqual(window.clickAdder, window.equaler)){
     moveShower(0, (window.nos)+1);                                       
   }
